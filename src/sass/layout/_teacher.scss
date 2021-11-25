@@ -1,0 +1,187 @@
+.teacher-title {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+}
+
+.teacher-image-thumb {
+  margin-bottom: 20px;
+}
+
+.teacher-img {
+  width: 243px;
+  height: 306px;
+}
+
+.teacher-imgtext {
+  display: flex;
+  flex-direction: column;
+}
+
+.teacher-name {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.22;
+  letter-spacing: 0.08em;
+}
+
+.teacher-cert-link {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.67;
+  text-decoration-line: underline;
+  color: var(--accennt-color);
+  cursor: pointer;
+}
+
+.teacher-exp-list::before {
+  display: block;
+  flex-shrink: 0;
+  content: '';
+  height: 0px;
+  border: 1px solid #b9b9b9;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.teacher-edu-list {
+  margin-bottom: 10px;
+
+  &::before {
+    display: block;
+    position: absolute;
+    flex-shrink: 0;
+    content: '';
+    width: 20px;
+    height: 2px;
+    background-color: var(--accennt-color);
+  }
+}
+
+.teacher-exp-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.teacher-exp-item__info {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.06em;
+}
+
+.teacher-edu-p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 2.17;
+  color: var(--second-primary-text-color);
+}
+
+.teacher-icon {
+  width: 17px;
+  height: 14px;
+  fill: var(--accennt-color);
+  margin-right: 9px;
+}
+
+.teacher-edu-item {
+  margin-bottom: 15px;
+}
+
+.teacher-edu-item:first-child {
+  padding-top: 25px;
+}
+
+// M E D I A  styles mob tab desk
+
+@media screen and (min-width: 768px) {
+  .teacher-title {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+
+  .teacher-imgtext {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .teacher-image-thumb {
+    margin-bottom: 0;
+    margin-right: 40px;
+  }
+
+  .teacher-exp-item__info {
+    font-size: 12px;
+    line-height: 1.25;
+  }
+
+  .teacher-edu-p {
+    font-size: 10px;
+    line-height: 2.8;
+  }
+
+  .teacher-exp-item {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .teacher-title {
+    font-size: 46px;
+    margin-bottom: 50px;
+  }
+
+  .teacher-image-thumb {
+    margin-right: 32px;
+  }
+
+  .teacher-img {
+    width: 580px;
+    height: 667px;
+  }
+
+  .teacher-name {
+    font-size: 30px;
+  }
+
+  .teacher-cert-link {
+    font-size: 18px;
+    line-height: 1.56;
+  }
+
+  .teacher-exp-item__info {
+    font-size: 16px;
+  }
+
+  .teacher-edu-list {
+    margin-bottom: 55px;
+  }
+
+  .teacher-edu-p {
+    font-size: 18px;
+    line-height: 1.56;
+  }
+
+  .teacher-icon {
+    width: 27px;
+    height: 20px;
+    fill: var(--accennt-color);
+    margin-right: 38px;
+  }
+
+  .teacher-exp-list::before {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  .teacher-edu-item:first-child {
+    padding-top: 45px;
+  }
+
+  .teacher-description {
+    min-height: 667px;
+  }
+}
