@@ -1,8 +1,15 @@
+.footers {
+  padding: 0 15px 0 15px;
+}
+
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding: 15px 0 15px 0;
+  @media (min-width: 280px) and (max-width: 767px) {
+    flex-direction: column;
+  }
 }
 
 .logo-footer {
@@ -60,7 +67,7 @@
 
 .footer-two {
   width: 100%;
-  height: 70px;
+  height: 100%;
   background-color: var(--primary-text-color);
   @media screen and (min-width: 1366px) {
     margin-bottom: 56px;
