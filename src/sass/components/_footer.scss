@@ -1,14 +1,15 @@
-.footers {
-  padding: 0 15px 0 15px;
-}
-
 .footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 15px 0 15px 0;
   @media (min-width: 280px) and (max-width: 767px) {
+    display: flex;
     flex-direction: column;
+    padding: 0 15px 0 15px;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
   }
 }
 
@@ -36,11 +37,16 @@
   width: 48px;
   height: 48px;
   display: block;
-  // @media screen and (min-width: 1366px) {
 
-  //   margin-right: 260px;
-  //   margin-top: 150px;
-  // }
+  @media (min-width: 280px) and (max-width: 767px) {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  @media (min-width: 768px) and (max-width: 1359px) {
+    justify-content: center;
+  }
 }
 .number {
   font-style: normal;
@@ -67,10 +73,9 @@
 
 .footer-two {
   width: 100%;
-  height: 100%;
+  height: 80px;
   background-color: var(--primary-text-color);
   @media screen and (min-width: 1366px) {
-    margin-bottom: 56px;
   }
   .contacts-information {
     @media screen and (min-width: 768px) {
@@ -79,51 +84,6 @@
       justify-content: space-between;
       align-items: center;
       margin: 40px;
-    }
-  }
-
-  .logo-link {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 21px;
-    @media screen and (min-width: 768px) {
-      margin-right: 225px;
-    }
-    @media screen and (min-width: 1366px) {
-      margin-right: 280px;
-      margin-left: 150px;
-      margin-top: 103px;
-      margin-bottom: 53px;
-    }
-  }
-
-  .logo {
-    font-weight: 800;
-    font-size: 26px;
-    line-height: 1.23;
-    letter-spacing: 0.04em;
-    color: var(--primary-text-color);
-  }
-
-  .text {
-    font-weight: 700;
-    font-size: 8px;
-    line-height: 1.25;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--primary-text-color);
-  }
-
-  .text-decoration {
-    color: var(--accennt-color);
-  }
-
-  .contact-footer {
-    display: flex;
-    justify-content: center;
-    @media screen and (min-width: 1366px) {
-      margin-top: 120px;
     }
   }
 
@@ -142,15 +102,6 @@
     }
   }
 
-  // .footer {
-  //   width: 100%;
-  //   height: 70px;
-  //   background-color: var(--primary-text-color);
-  //   @media screen and (min-width: 1366px) {
-  //     margin-bottom: 56px;
-  //   }
-  // }
-
   .footer-text {
     font-style: normal;
     font-weight: 500;
@@ -159,5 +110,6 @@
     color: #b9b9b9;
     padding-left: 52px;
     padding-top: 21px;
+    text-align: left;
   }
 }

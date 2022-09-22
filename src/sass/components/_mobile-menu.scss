@@ -31,6 +31,7 @@
 
     color: #ffffff;
   }
+
   .mobile-menu__logo::after {
     position: absolute;
     left: 82px;
@@ -154,6 +155,9 @@
     height: 100vh;
     display: flex;
   }
+  .logo__link {
+    position: relative;
+  }
   .mobile-menu__logo {
     font-weight: 800;
     font-size: 26px;
@@ -166,10 +170,9 @@
   }
   .mobile-menu__logo::before {
     position: absolute;
-    position: absolute;
-    left: 14.5%;
+    left: 62px;
 
-    top: 7%;
+    top: -4px;
   }
   .logo__txt-item {
     color: #ffffff;
