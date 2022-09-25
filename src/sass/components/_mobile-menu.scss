@@ -32,14 +32,12 @@
     color: #ffffff;
   }
 
-  .mobile-menu__logo::after {
-  
+ 
+  .wings__logo{
+fill: var(--accennt-color); 
 
-    position: absolute;
-    left: 97px;
 
-    top: 34px;
-  }
+}
   .mobile-menu__close-button {
     position: absolute;
     left: 60%;
@@ -164,18 +162,15 @@
     font-weight: 800;
     font-size: 26px;
     line-height: 1.23;
+    margin-left: -8px;
+    margin-right: 0px;
     /* identical to box height */
 
     letter-spacing: 0.04em;
 
     color: #ffffff;
   }
-  .mobile-menu__logo::before {
-    position: absolute;
-    left: 76px;
-
-    top: -4px;
-  }
+ 
   .logo__txt-item {
     color: #ffffff;
   }
@@ -202,6 +197,11 @@
     border: none;
     background-color: rgba(17, 21, 24, 0.9);
   }
+        .wings__logo {
+          fill: var(--accennt-color);
+         
+    
+        }
   .mobile-menu__nav-list {
     margin-top: 85px;
     text-decoration: none;
@@ -234,4 +234,5 @@
   .mobile-menu {
     display: none;
   }
+     
 }

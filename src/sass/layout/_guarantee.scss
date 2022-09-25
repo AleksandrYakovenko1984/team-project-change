@@ -18,7 +18,9 @@
     margin-bottom: 50px;
   }
 }
-
+.wings__marker{
+  fill: var(--accennt-color);
+}
 .section-guarantee {
   display: block;
   width: 340px;
@@ -81,7 +83,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 1.67;
+
   color: #3d3d3d;
   @media screen and (min-width: 1366px) {
     font-size: 20px;

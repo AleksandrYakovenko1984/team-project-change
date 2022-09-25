@@ -18,21 +18,13 @@
   font-size: 26px;
   line-height: 1.23;
   /* identical to box height */
-  margin-right: 18px;
+  margin-left: -12px;
   letter-spacing: 0.04em;
   position: relative;
   color: var(--primary-text-color);
 }
 
-.logo-footer__icon::after {
-  content: ' ';
-  background-image: url(/./images/icons/fire.mob.svg);
-  background-repeat: no-repeat;
-  position: absolute;
-  width: 22px;
-  height: 30px;
-  bottom: 3px;
-}
+
 .social-icon {
   width: 48px;
   height: 48px;

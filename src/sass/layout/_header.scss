@@ -13,6 +13,7 @@
   font-weight: 800;
   font-size: 26px;
   line-height: 1.23;
+  margin-left: -12px;
   /* identical to box height */
 
   letter-spacing: 0.04em;
@@ -85,18 +86,14 @@
     position: relative;
   }
   .logo__front {
-    margin-right: 20px;
+    margin-right: -2px;
   }
-  .logo__front::after {
-    content: ' ';
-    background-image: url(/./images/icons/fire.mob.svg);
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 22px;
-    height: 30px;
-    left: 78px;
-    top: 0px;
-  }
+        .wings__logo {
+          fill: var(--accennt-color);
+          
+    
+    
+        }
 
   .header-menu {
     display: none;
@@ -136,17 +133,9 @@
     position: relative;
   }
   .logo__front {
-    margin-right: 20px;
+    margin-right: -12px;
   }
-  .logo__front::before {
-    content: ' ';
-    background-image: url(/./images/icons/fire.svg);
-    position: absolute;
-    width: 22px;
-    height: 30px;
-    left: 78px;
-    top: -2px;
-  }
+  
   .nav-list__btn {
     width: 260px;
     height: 48px;
@@ -166,17 +155,9 @@
     position: relative;
   }
   .logo__front {
-    margin-right: 20px;
+    margin-right: -12px;
   }
-  .logo__front::before {
-    content: ' ';
-    background-image: url(/./images/icons/fire.svg);
-    position: absolute;
-    width: 22px;
-    height: 30px;
-    left: 78px;
-    top: -2px;
-  }
+ 
   .header-menu {
     display: flex;
     justify-content: space-between;
