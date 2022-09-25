@@ -101,8 +101,7 @@
         }
 
   .header-menu {
-    display: block;
-
+    display: none;
   }
   .navigation {
     display: flex;
@@ -118,7 +117,7 @@
 }
 @media screen and (max-width: 1000px) {
   .nav-list {
-    display: block;
+    display: none;
   }
   .navigation {
     display: flex;
