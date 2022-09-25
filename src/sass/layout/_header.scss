@@ -2,10 +2,14 @@
   // display: flex;
   // justify-content: space-around;
 
-  a {
+  li {
+    list-style-type: none;
+  }
+  a{
     text-decoration: none;
   }
 }
+
 .logo__container {
   position: relative;
 }
@@ -61,6 +65,7 @@
   color: #b9b9b9;
 }
 .nav-list__btn {
+  display: block;
   width: 336px;
   height: 70px;
   background-color: transparent;
@@ -96,7 +101,8 @@
         }
 
   .header-menu {
-    display: none;
+    display: block;
+
   }
   .navigation {
     display: flex;
@@ -112,7 +118,7 @@
 }
 @media screen and (max-width: 1000px) {
   .nav-list {
-    display: none;
+    display: block;
   }
   .navigation {
     display: flex;
@@ -142,6 +148,11 @@
   }
   .logo__link {
     margin-right: 180px;
+  }
+}
+@media screen and (min-width: 968px){
+  .menu__burger-btn{
+    opacity: 0;
   }
 }
 @media screen and (min-width: 1366px) {

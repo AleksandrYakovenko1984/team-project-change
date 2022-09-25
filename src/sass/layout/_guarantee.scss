@@ -61,7 +61,7 @@
 .guarantee-item {
   padding-left: 28px;
   &:not(:last-child) {
-    padding-bottom: 23px;
+    margin-bottom: 23px;
   }
   @media screen and (min-width: 768px) {
     margin-bottom: 10px;
